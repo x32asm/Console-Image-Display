@@ -11,6 +11,7 @@ All of the image processing is done with OpenCV 3.4.3.
 
 
 IDS works by taking command line arguments specifying the image to be displayed, the font size of the image, and image options.
+
 <b>Usage:</b>
 
 	options / flags:
