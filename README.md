@@ -22,3 +22,5 @@ IDS works by taking command line arguments specifying the image to be displayed,
 		*.exe <image path> [font size] [options]
 
 if flag -a is left out of the arguments the image will be displayed using ascii character 0xDB (219)
+
+When using IDS make sure not to use ctrl + c to exit the program (instead just press any character) as this will prevent IDS from setting the console properties back to a default setting. If you accidentally stop executing with ctrl + c you can either run IDS again with any image and exit the program properly or use the ConsoleFix program included in the bin folder to reset you command prompt (sometimes just closing the console and re-opening it works too)
